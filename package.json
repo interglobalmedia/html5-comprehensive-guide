@@ -1,0 +1,23 @@
+{
+  "name": "html5-comprehensive-guide",
+  "version": "1.0.0",
+  "description": "The meaning and scope of what is referred to as HTML5 reaches far and wide.",
+  "main": "index.js",
+  "scripts": {
+    "slides": "npx reveal-md html5-comprehensive-guide.md",
+    "customcss": "npx reveal-md html5-comprehensive-guide.md --css custom.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interglobalmedia/html5-comprehensive-guide.git"
+  },
+  "author": "Maria D. Campbell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/interglobalmedia/html5-comprehensive-guide/issues"
+  },
+  "homepage": "https://github.com/interglobalmedia/html5-comprehensive-guide#readme",
+  "devDependencies": {
+    "reveal-md": "^4.3.0"
+  }
+}
